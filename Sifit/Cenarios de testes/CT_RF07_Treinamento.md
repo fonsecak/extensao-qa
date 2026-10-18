@@ -25,7 +25,7 @@
 
 | **Vídeo do JAM** |
 | :-------------------------------------------------------------- |
-| [Assistir ao vídeo](Videos\7.1.mp4)
+| [Assistir ao vídeo](../Videos/7.1.mp4)
 
 ---
 
