@@ -25,7 +25,7 @@
 
 | **Vídeo do JAM** |
 | :-------------------------------------------------------------- |
-| Link: | Sifit\Videos\7.1.mp4
+| [Assistir ao vídeo](Sifit\Videos\7.1.mp4)
 
 ---
 
