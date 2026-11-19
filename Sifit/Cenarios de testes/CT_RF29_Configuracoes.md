@@ -56,7 +56,11 @@
 
 | **Vídeo do JAM** |
 | :-------------------------------------------------------------- |
-| Link: a adicionar. |
+| Vídeo não realizado por motivos de segurança da informação. |
+
+A gravação deste caso de teste não será realizada por motivos de segurança da informação. Durante a execução, foi identificado que o campo "Senha", na aba Biometria, apresenta seu conteúdo em texto plano, sem o mascaramento adequado. A gravação poderia expor credenciais de acesso e comprometer a segurança do sistema.
+
+Dessa forma, optou-se por não registrar evidência em vídeo, preservando a confidencialidade das informações.
 
 ---
 
