@@ -1,8 +1,8 @@
-# 🧪 Sifit — QA Manual
+# Sifit - QA Manual
 
-Testes manuais do **Sifit**, sistema de gestão de academias, cobrindo consulta, cadastro, edição e exclusão nas principais áreas: clientes, matrículas, planos, check-in, avaliações físicas, treinamento, financeiro, comercial, gestão e configurações.
+Testes manuais do Sifit, sistema de gestão de academias, cobrindo consulta, cadastro, edição e exclusão nas principais áreas: clientes, matrículas, planos, check-in, avaliações físicas, treinamento, financeiro, comercial, gestão e configurações.
 
-## 📊 Números
+## Números
 
 | | |
 | --- | --- |
@@ -10,7 +10,7 @@ Testes manuais do **Sifit**, sistema de gestão de academias, cobrindo consulta,
 | Cenários de teste | **98** |
 | Bugs encontrados | **16** |
 
-## 📁 Documentação
+## Documentação
 
 | Documento | Conteúdo |
 | --- | --- |
@@ -20,10 +20,10 @@ Testes manuais do **Sifit**, sistema de gestão de academias, cobrindo consulta,
 | [`Sifit/4- Relatorio dos testes.md`](Sifit/4-%20Relatorio%20dos%20testes.md) | Resumo da execução, cobertura por módulo e conclusão |
 | [`Sifit/Cenarios de testes/`](Sifit/Cenarios%20de%20testes) | Casos de teste em BDD (Gherkin), um arquivo por RF |
 
-## 🔎 Principal achado
+## Principal achado
 
-Quatro fluxos centrais de **cadastro** (Matrícula, Plano, Avaliação Física e Ficha de Treino) falham com erro do servidor (HTTP 400/500), um padrão sistêmico e não bugs isolados — detalhado no relatório de execução.
+Quatro fluxos centrais de cadastro (Matrícula, Plano, Avaliação Física e Ficha de Treino) falham com erro do servidor (HTTP 400/500), um padrão sistêmico e não bugs isolados, detalhado no relatório de execução.
 
-## 🧪 Metodologia
+## Metodologia
 
 Testes positivos, negativos e exploratórios, com registros de teste identificados pelo prefixo `QA_` para não afetar dados reais da academia.
