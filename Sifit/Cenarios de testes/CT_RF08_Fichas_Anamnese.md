@@ -25,7 +25,7 @@
 
 | **Vídeo do JAM** |
 | :-------------------------------------------------------------- |
-| Link: | https://jam.dev/c/ceb02381-78af-44e8-a599-efbac11d7b6e
+| Link:  https://jam.dev/c/ceb02381-78af-44e8-a599-efbac11d7b6e |
 
 ---
 
@@ -55,7 +55,7 @@
 
 | **Vídeo do JAM** |
 | :-------------------------------------------------------------- |
-| Link: | https://jam.dev/c/eee96adc-dd9c-4464-8f1c-6e2fd3aabb50
+| Link:  https://jam.dev/c/eee96adc-dd9c-4464-8f1c-6e2fd3aabb50 |
 
 ---
 
@@ -87,4 +87,4 @@
 
 | **Vídeo do JAM** |
 | :-------------------------------------------------------------- |
-| Link: a adicionar. |
+| Link: https://jam.dev/c/13ebc4d2-61ff-4d83-8eca-bfa623a4bbec |

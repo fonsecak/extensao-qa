@@ -84,6 +84,10 @@
 | :-------------------------------------------------------------- |
 | O cadastro e a exclusão devem ser concluídos com sucesso, e o indicador "Grupos" deve refletir a mudança. |
 
+| **Resultado obtido** |
+| :-------------------------------------------------------------- |
+| Cadastro funcionou, mas houve erro na exclusão do Grupo cadastrado  |
+
 | **Vídeo do JAM** |
 | :-------------------------------------------------------------- |
-| Link: a adicionar. |
+| Link: https://jam.dev/c/ef249d6e-87df-4ac9-9c68-94d48d28d7de |

@@ -27,7 +27,7 @@
 
 | **Vídeo do JAM** |
 | :-------------------------------------------------------------- |
-| Link: a adicionar. |
+| Link: https://jam.dev/c/35999e03-d751-472b-8910-72e6da8b5d1b |
 
 ---
 
@@ -58,7 +58,7 @@
 
 | **Vídeo do JAM** |
 | :-------------------------------------------------------------- |
-| Link: a adicionar. |
+| Link: https://jam.dev/c/a6c6264c-f7dd-442c-b66e-3e269c9b2620 |
 
 ---
 
@@ -87,7 +87,7 @@
 
 | **Vídeo do JAM** |
 | :-------------------------------------------------------------- |
-| Link: a adicionar. |
+| Link: https://jam.dev/c/53e80559-5b9e-4149-baea-38d7a9516e60 |
 
 ---
 
@@ -116,9 +116,13 @@
 | A solicitação deve ser concluída com sucesso. |
 | O conteúdo do arquivo deve corresponder ao modelo e ao período informados. |
 
+| **Resultado obtido** |
+| :-------------------------------------------------------------- |
+| O relatório gerado estava vazio e não abria  |
+
 | **Vídeo do JAM** |
 | :-------------------------------------------------------------- |
-| Link: a adicionar. |
+| Link: https://jam.dev/c/86160793-0630-4919-9606-9e728c458bc0 |
 
 ---
 
@@ -152,6 +156,6 @@
 
 | **Vídeo do JAM** |
 | :-------------------------------------------------------------- |
-| Link: a adicionar. |
+| Link: https://jam.dev/c/8b73b890-09dd-438c-a4b5-acd34e979e43 |
 
 ---

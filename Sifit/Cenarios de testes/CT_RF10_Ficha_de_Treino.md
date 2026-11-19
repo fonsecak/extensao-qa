@@ -82,10 +82,7 @@
 | :-------------------------------------------------------------- |
 | A ficha deve ser salva com sucesso e aparecer na listagem de Fichas de Treino. |
 
-| **Resultado obtido** |
-| :-------------------------------------------------------------- |
-| O cadastro falha com a mensagem "Erro ao salvar Ficha", com `POST /api/adicionar-ficha/1` retornando HTTP 500. Falha crítica registrada em SIFIT-BUG-015. |
 
 | **Vídeo do JAM** |
 | :-------------------------------------------------------------- |
-| Link: a adicionar. |
+| Link: https://jam.dev/c/2fbed349-8201-4cf2-b7fe-8fd25d316389 |
