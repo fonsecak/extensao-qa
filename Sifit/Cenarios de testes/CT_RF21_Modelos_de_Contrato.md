@@ -24,7 +24,7 @@
 
 | **Vídeo Local** |
 | :-------------------------------------------------------------- |
-| Assistir vídeo: (../Videos/10.mp4) |
+| Assistir vídeo: (extensao-qa/Sifit/Videos/10.mp4) |
 
 ---
 
