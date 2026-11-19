@@ -1,32 +1,29 @@
-🧪 Testes-Manuais
+# 🧪 Sifit — QA Manual
 
-Repositório dedicado ao estudo, prática e documentação de testes manuais de software, com foco em:
+Testes manuais do **Sifit**, sistema de gestão de academias, cobrindo consulta, cadastro, edição e exclusão nas principais áreas: clientes, matrículas, planos, check-in, avaliações físicas, treinamento, financeiro, comercial, gestão e configurações.
 
-Aprendizado de QA
-Organização de casos de teste
-Melhoria contínua na análise e cobertura de testes
-🎯 Objetivo
-Este projeto foi criado com o objetivo de:
+## 📊 Números
 
-Consolidar conhecimentos de testes manuais
-Simular testes em sistemas reais e ambientes públicos
-Criar um portfólio técnico bem estruturado para futuras oportunidades profissionais
-🧱 Estrutura do repositório
-A estrutura está organizada por pastas, cada uma representando um sistema/teste diferente:
+| | |
+| --- | --- |
+| Requisitos funcionais mapeados | **31** |
+| Cenários de teste | **98** |
+| Bugs encontrados | **16** |
 
-📁 OrangeHRM ↳ Casos de Teste, Cenários, Relatórios de Bug e Evidências
+## 📁 Documentação
 
+| Documento | Conteúdo |
+| --- | --- |
+| [`Sifit/1-Analise de requisitos.md`](Sifit/1-Analise%20de%20requisitos.md) | Requisitos funcionais (RF01–RF31), um por tela/submódulo |
+| [`Sifit/2-plano de testes.md`](Sifit/2-plano%20de%20testes.md) | Escopo, técnicas, cronograma e critérios de aceitação |
+| [`Sifit/3-Relatorio-de-Bugs.md`](Sifit/3-Relatorio-de-Bugs.md) | Falhas encontradas, com passos de reprodução e evidências |
+| [`Sifit/4- Relatorio dos testes.md`](Sifit/4-%20Relatorio%20dos%20testes.md) | Resumo da execução, cobertura por módulo e conclusão |
+| [`Sifit/Cenarios de testes/`](Sifit/Cenarios%20de%20testes) | Casos de teste em BDD (Gherkin), um arquivo por RF |
 
-🧪 Metodologia
-Técnicas aplicadas: Testes Positivos, Negativos, Exploratório, Funcional
-Ferramentas: Markdown, GitHub.
-Formatos: BDD (Gherkin), Tabelas e Checklist
-Processos: Planejamento de Teste, Execução e Relatório
+## 🔎 Principal achado
 
-📌 Status do Projeto
-✅ Ativo e em constante evolução 
-📋 Feedbacks são bem-vindos!
+Quatro fluxos centrais de **cadastro** (Matrícula, Plano, Avaliação Física e Ficha de Treino) falham com erro do servidor (HTTP 400/500), um padrão sistêmico e não bugs isolados — detalhado no relatório de execução.
 
-🚀 Sites interessantes para prática
-OrangeHRM Demo (https://opensource-demo.orangehrmlive.com)
+## 🧪 Metodologia
 
+Testes positivos, negativos e exploratórios, com registros de teste identificados pelo prefixo `QA_` para não afetar dados reais da academia.
