@@ -22,9 +22,9 @@
 | :-------------------------------------------------------------- |
 | A tela deve carregar sem apresentar mensagem de erro. |
 
-| **Vídeo do JAM** |
+| **Vídeo Local** |
 | :-------------------------------------------------------------- |
-| Link: a adicionar. |
+| Assistir vídeo: (../Videos/10.mp4) |
 
 ---
 
@@ -53,6 +53,6 @@
 | A pré-visualização deve refletir o texto do contrato com as variáveis resolvidas. |
 | O caso verifica a edição e a pré-visualização; não salvar o modelo. |
 
-| **Vídeo do JAM** |
+| **Vídeo Local** |
 | :-------------------------------------------------------------- |
-| Link: a adicionar. |
+| Assistir vídeo: (../Videos/10.mp4) |

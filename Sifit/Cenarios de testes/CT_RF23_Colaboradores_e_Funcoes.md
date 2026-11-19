@@ -23,9 +23,9 @@
 | A tela deve carregar sem apresentar mensagem de erro. |
 | A busca por nome deve retornar o registro correto. |
 
-| **Vídeo do JAM** |
+| **Vídeo Local** |
 | :-------------------------------------------------------------- |
-| Link: a adicionar. |
+| Assistir vídeo: (../Videos/12.mp4) |
 
 ---
 
@@ -51,6 +51,6 @@
 | A tela deve carregar sem apresentar mensagem de erro. |
 | Os indicadores devem refletir os registros exibidos na lista. |
 
-| **Vídeo do JAM** |
+| **Vídeo Local** |
 | :-------------------------------------------------------------- |
-| Link: a adicionar. |
+| Assistir vídeo: (../Videos/12.mp4) |

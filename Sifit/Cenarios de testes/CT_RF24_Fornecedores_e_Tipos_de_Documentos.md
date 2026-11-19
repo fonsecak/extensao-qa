@@ -21,9 +21,9 @@
 | :-------------------------------------------------------------- |
 | A tela deve carregar sem apresentar mensagem de erro. |
 
-| **Vídeo do JAM** |
+| **Vídeo Local** |
 | :-------------------------------------------------------------- |
-| Link: a adicionar. |
+| Assistir vídeo: (../Videos/14.mp4) |
 
 ---
 
@@ -49,6 +49,6 @@
 | A tela deve carregar sem apresentar mensagem de erro. |
 | A aplicação exibida deve corresponder ao tipo de documento (Colaborador ou Conta/Fornecedor). |
 
-| **Vídeo do JAM** |
+| **Vídeo Local** |
 | :-------------------------------------------------------------- |
-| Link: a adicionar. |
+| Assistir vídeo: (../Videos/14.mp4) |
