@@ -26,7 +26,7 @@
 
 | **Vídeo do JAM** |
 | :-------------------------------------------------------------- |
-| Link: a adicionar. |
+| Link: [Assistir ao vídeo CT01](https://jam.dev/c/98bc40ee-ce2c-40f4-a2f1-5f4e38cd2c34) |
 
 ---
 
