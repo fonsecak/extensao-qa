@@ -1,10 +1,10 @@
-## Cenário 05: Check-in e consulta de presenças.
+## Cenário 06: Check-in e consulta de presenças.
 
 ### Caso de Teste 01: Acesso à tela de Check-in.
 
 | ID | Descrição |
 | :------- | :------------------------------------------------------- |
-| C05-CT01 | A tela de Check-in deve apresentar os filtros e as ações disponíveis. |
+| C06-CT01 | A tela de Check-in deve apresentar os filtros e as ações disponíveis. |
 
 | **Pré-condições** |
 | :------------------------------------------------------------ |
@@ -33,7 +33,7 @@
 
 | ID | Descrição |
 | :------- | :------------------------------------------------------- |
-| C05-CT02 | A busca deve localizar o cliente conforme o dado informado. |
+| C06-CT02 | A busca deve localizar o cliente conforme o dado informado. |
 
 | **Pré-condições** |
 | :------------------------------------------------------------ |
@@ -62,7 +62,7 @@
 
 | ID | Descrição |
 | :------- | :------------------------------------------------------- |
-| C05-CT03 | A opção de Check-in manual deve apresentar o formulário de entrada. |
+| C06-CT03 | A opção de Check-in manual deve apresentar o formulário de entrada. |
 
 | **Pré-condições** |
 | :------------------------------------------------------------ |
@@ -92,7 +92,7 @@
 
 | ID | Descrição |
 | :------- | :------------------------------------------------------- |
-| C05-CT04 | A consulta deve exibir as presenças do cliente no período informado. |
+| C06-CT04 | A consulta deve exibir as presenças do cliente no período informado. |
 
 | **Pré-condições** |
 | :------------------------------------------------------------ |
@@ -117,3 +117,36 @@
 | **Vídeo do JAM** |
 | :-------------------------------------------------------------- |
 | Link: | https://jam.dev/c/d6b24cd6-57f2-47c7-9d89-0cec822c27df
+
+---
+
+### Caso de Teste 05: Registro de entrada e atualização da tela de Check-ins.
+
+| ID | Descrição |
+| :------- | :------------------------------------------------------- |
+| C06-CT05 | O registro de um check-in deve atualizar o status da linha e o indicador "Check-ins hoje" na mesma tela. |
+
+| **Pré-condições** |
+| :------------------------------------------------------------ |
+| Deve existir um cliente pendente na listagem de Check-ins. |
+
+| **Passos** |
+| :---------------------------------------------------------------- |
+| **DADO** que estamos na tela de Check-ins, com um cliente de teste listado como "Pendente" |
+| **QUANDO** clicarmos em "Registrar entrada" na linha desse cliente |
+| **ENTÃO** o status da linha deve mudar de "Pendente" para indicar entrada registrada |
+| **E** o indicador "Check-ins hoje" deve ser incrementado |
+| **QUANDO** repetirmos o check-in pelo campo "Entrada rápida", informando o código do mesmo cliente |
+| **ENTÃO** o indicador "Check-ins hoje" deve refletir o novo check-in registrado |
+
+| **Critérios de aceitação** |
+| :-------------------------------------------------------------- |
+| Cada check-in bem-sucedido deve ser refletido imediatamente no status da linha e no indicador "Check-ins hoje", sem necessidade de recarregar a página. |
+
+| **Resultado obtido** |
+| :-------------------------------------------------------------- |
+| Em ambos os casos, a requisição `POST /api/checkin/entrada/1` retornou HTTP 201 (sucesso) e o "Total de check-ins" no perfil do cliente foi incrementado corretamente. Porém, na tela de Check-ins: (1) a linha do cliente continuou exibindo status "Pendente" e o botão "Registrar entrada" após o primeiro check-in, mesmo após recarregar a página; (2) o indicador "Check-ins hoje" permaneceu em 1 após o segundo check-in via "Entrada rápida", não refletindo o novo registro. Falha registrada em SIFIT-BUG-010. |
+
+| **Vídeo do JAM** |
+| :-------------------------------------------------------------- |
+| Link: a adicionar. |

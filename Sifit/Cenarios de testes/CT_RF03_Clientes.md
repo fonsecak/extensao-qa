@@ -85,3 +85,97 @@
 | **Vídeo do JAM** |
 | :-------------------------------------------------------------- |
 | Link: | https://jam.dev/c/0032de48-b2bf-47f0-bfe4-481e3f7c641f
+
+---
+
+### Caso de Teste 04: Cadastro de novo cliente.
+
+| ID | Descrição |
+| :------- | :------------------------------------------------------- |
+| C03-CT04 | O sistema deve permitir o cadastro completo de um novo cliente. |
+
+| **Pré-condições** |
+| :------------------------------------------------------------ |
+| O usuário deve estar autenticado com o perfil administrativo. |
+
+| **Passos** |
+| :---------------------------------------------------------------- |
+| **DADO** que estamos na tela de Clientes |
+| **QUANDO** clicarmos em "Novo Cliente" |
+| **E** preenchermos Nome, Status, Sexo, Data de Nascimento, Celular e E-mail |
+| **E** clicarmos em "Cadastrar Cliente" |
+| **ENTÃO** o cliente deve ser criado e listado na tela de Clientes |
+
+| **Critérios de aceitação** |
+| :-------------------------------------------------------------- |
+| O cliente deve aparecer na listagem imediatamente após o cadastro, com o indicador "Clientes Cadastrados" incrementado. |
+
+| **Resultado obtido** |
+| :-------------------------------------------------------------- |
+| O cadastro foi concluído com sucesso (cliente QA_CLAUDE_CLIENTE_TESTE_01, código 437). O indicador "Clientes Ativos" não atualizou em tempo real após o cadastro, corrigindo-se apenas após recarregar a página — comportamento observado, não bloqueante. |
+
+| **Vídeo do JAM** |
+| :-------------------------------------------------------------- |
+| Link: a adicionar. |
+
+---
+
+### Caso de Teste 05: Edição de cliente cadastrado.
+
+| ID | Descrição |
+| :------- | :------------------------------------------------------- |
+| C03-CT05 | O sistema deve permitir editar os dados de um cliente já cadastrado. |
+
+| **Pré-condições** |
+| :------------------------------------------------------------ |
+| Deve existir um cliente de teste cadastrado. |
+
+| **Passos** |
+| :---------------------------------------------------------------- |
+| **DADO** que estamos na visualização de um cliente de teste |
+| **QUANDO** clicarmos em "Alterar dados" |
+| **E** alterarmos o campo "Nome" |
+| **E** clicarmos em "Salvar Alterações" |
+| **ENTÃO** o novo nome deve ser refletido na listagem de Clientes |
+
+| **Critérios de aceitação** |
+| :-------------------------------------------------------------- |
+| A alteração deve ser salva e exibida corretamente na listagem. |
+| Campos não preenchidos no cadastro original não devem exibir o literal "null". |
+
+| **Resultado obtido** |
+| :-------------------------------------------------------------- |
+| A edição do nome foi salva com sucesso. O campo "Tipo Sanguíneo", deixado em branco no cadastro, exibe o texto literal "null" na tela de edição, em vez de aparecer vazio. Falha registrada em SIFIT-BUG-008. |
+
+| **Vídeo do JAM** |
+| :-------------------------------------------------------------- |
+| Link: a adicionar. |
+
+---
+
+### Caso de Teste 06: Exclusão de cliente cadastrado.
+
+| ID | Descrição |
+| :------- | :------------------------------------------------------- |
+| C03-CT06 | O sistema deve permitir excluir um cliente, mediante confirmação. |
+
+| **Pré-condições** |
+| :------------------------------------------------------------ |
+| Deve existir um cliente de teste cadastrado. |
+
+| **Passos** |
+| :---------------------------------------------------------------- |
+| **DADO** que estamos na listagem de Clientes |
+| **QUANDO** clicarmos na ação de excluir (X) de um cliente de teste |
+| **ENTÃO** o sistema deve exibir a confirmação "Deseja deletar este cliente?" |
+| **QUANDO** confirmarmos a exclusão |
+| **ENTÃO** o cliente deve ser removido da listagem |
+
+| **Critérios de aceitação** |
+| :-------------------------------------------------------------- |
+| A exclusão deve exigir confirmação explícita antes de ser efetivada. |
+| O cliente excluído não deve mais aparecer na listagem. |
+
+| **Vídeo do JAM** |
+| :-------------------------------------------------------------- |
+| Link: a adicionar. |

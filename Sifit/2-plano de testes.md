@@ -25,27 +25,28 @@ Verificar manualmente as funcionalidades do Sifit previstas na análise de requi
 
 * Autenticação de usuário e encerramento da sessão.
 * Página Inicial e Dashboard.
-* Clientes.
-* Matrículas e Planos.
+* Clientes: consulta, cadastro, edição e exclusão.
+* Matrículas: consulta, cadastro, edição e cancelamento.
+* Planos: consulta e cadastro.
 * Check-in e Presenças.
-* Avaliações e Saúde: Fichas Anamnese, Modelos, Categorias e Perguntas.
-* Treinamento: Ficha de Treino, Exercícios, Grupos Musculares e Objetivos Treino.
+* Avaliações Físicas: consulta, agendamento e preenchimento.
+* Fichas Anamnese: consulta e aplicação.
+* Modelos, Categorias e Perguntas de Saúde.
+* Ficha de Treino, Exercícios, Grupos Musculares e Objetivos de Treino.
 * Grupos e Turmas.
-* Consultas de Contas a Receber, Contas a Pagar, Caixas e Despesas Fixas.
+* Contas a Receber, Contas a Pagar, Caixas e Despesas Fixas.
 * Relatórios.
-* Comercial: Prospecção, Modelos Contrato, Tipos de Pagamento e Bandeiras.
-* Gestão: Colaboradores, Funções, Fornecedores, Tipos de Documentos, Atividades, Pontuação, Produtos e Enquetes.
-* Consulta dos recursos de Inteligência & Automação e Resultados IA.
-* Consulta de Configurações, Modelo Ficha e Aplicativo.
+* Prospecção, Modelos de Contrato, Tipos de Pagamento e Bandeiras.
+* Colaboradores, Funções, Fornecedores, Tipos de Documentos, Pontuação, Produtos e Enquetes.
+* Inteligência e Automação, incluindo abertura da configuração de uma automação.
+* Configurações, Modelo Ficha e Aplicativo.
 
 **Excluído:**
 
-* Testes de integração com Pagar.me e outros sistemas externos.
-* Cobranças, pagamentos e outras movimentações financeiras reais.
-* Exclusão ou alteração de dados reais de clientes.
-* Disparos de automações e alterações globais nas configurações.
+* Testes de integração real com Pagar.me e outros sistemas externos.
+* Exclusão ou alteração de dados reais de clientes da academia; apenas registros de teste, identificados pelo prefixo "QA_", podem ser criados, editados ou excluídos.
 * Testes em dispositivos móveis ou no aplicativo nativo.
-* Testes de performance, carga e segurança.
+* Testes de performance, carga e segurança aprofundada.
 * Testes de permissões entre diferentes perfis, enquanto houver apenas a conta administrativa.
 
 ---
@@ -105,17 +106,34 @@ Verificar manualmente as funcionalidades do Sifit previstas na análise de requi
 | RF01 | Autenticação de Usuário | Alta |
 | RF02 | Página Inicial e Dashboard | Média |
 | RF03 | Clientes | Alta |
-| RF04 | Matrículas e Planos | Alta |
-| RF05 | Check-in e Presenças | Alta |
-| RF06 | Avaliações e Saúde | Média |
-| RF07 | Treinamento | Média |
-| RF08 | Grupos e Turmas | Média |
-| RF09 | Contas a Receber, Contas a Pagar, Caixas e Despesas Fixas | Alta |
-| RF10 | Relatórios | Média |
-| RF11 | Comercial | Baixa |
-| RF12 | Gestão | Baixa |
-| RF13 | Inteligência | Baixa |
-| RF14 | Configurações | Baixa |
+| RF04 | Matrículas | Alta |
+| RF05 | Planos | Alta |
+| RF06 | Check-in e Presenças | Alta |
+| RF07 | Avaliações Físicas | Média |
+| RF08 | Fichas Anamnese | Média |
+| RF09 | Modelos, Categorias e Perguntas de Saúde | Baixa |
+| RF10 | Ficha de Treino | Média |
+| RF11 | Exercícios | Baixa |
+| RF12 | Grupos Musculares e Objetivos de Treino | Baixa |
+| RF13 | Grupos | Média |
+| RF14 | Turmas | Média |
+| RF15 | Contas a Receber | Alta |
+| RF16 | Contas a Pagar | Alta |
+| RF17 | Caixas | Alta |
+| RF18 | Despesas Fixas | Média |
+| RF19 | Relatórios | Média |
+| RF20 | Prospecção | Baixa |
+| RF21 | Modelos de Contrato | Baixa |
+| RF22 | Tipos de Pagamento e Bandeiras | Baixa |
+| RF23 | Colaboradores e Funções | Baixa |
+| RF24 | Fornecedores e Tipos de Documentos | Baixa |
+| RF25 | Pontuação | Baixa |
+| RF26 | Produtos | Baixa |
+| RF27 | Enquetes | Baixa |
+| RF28 | Inteligência e Automação | Baixa |
+| RF29 | Configurações | Baixa |
+| RF30 | Modelo Ficha | Baixa |
+| RF31 | Aplicativo | Baixa |
 
 ---
 

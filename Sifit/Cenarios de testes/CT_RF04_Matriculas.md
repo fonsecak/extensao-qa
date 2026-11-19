@@ -1,4 +1,4 @@
-## Cenário 04: Consulta de matrículas e planos.
+## Cenário 04: Consulta, cadastro, edição e cancelamento de matrículas.
 
 ### Caso de Teste 01: Acesso à tela de Matrículas.
 
@@ -81,7 +81,6 @@
 | :-------------------------------------------------------------- |
 | O formulário deve abrir sem apresentar mensagem de erro. |
 | Os campos e as ações descritos devem estar disponíveis. |
-| O caso verifica a abertura do formulário; não selecionar cliente ou modalidade nem salvar a matrícula. |
 
 | **Vídeo do JAM** |
 | :-------------------------------------------------------------- |
@@ -89,61 +88,96 @@
 
 ---
 
-### Caso de Teste 04: Acesso e busca de planos.
+### Caso de Teste 04: Cadastro de nova matrícula.
 
 | ID | Descrição |
 | :------- | :------------------------------------------------------- |
-| C04-CT04 | A tela de Planos deve permitir consultar planos pelos filtros disponíveis. |
+| C04-CT04 | O sistema deve permitir vincular uma matrícula a um cliente existente. |
 
 | **Pré-condições** |
 | :------------------------------------------------------------ |
-| O usuário deve estar autenticado com o perfil administrativo. |
+| Deve existir um cliente sem matrícula ativa. |
 
 | **Passos** |
 | :---------------------------------------------------------------- |
-| **DADO** que estamos autenticados no Sifit |
-| **QUANDO** clicarmos no menu "Planos" |
-| **ENTÃO** a tela de Planos deve ser exibida com os filtros "Código", "Nome" e "Status" |
-| **E** devem estar disponíveis as ações "Buscar" e "Novo Plano" |
-| **QUANDO** informarmos o nome de um plano de teste conhecido no filtro "Nome" e clicarmos em "Buscar" |
-| **ENTÃO** o sistema deve apresentar o plano correspondente ao nome informado |
+| **DADO** que estamos na tela de Matrículas |
+| **QUANDO** clicarmos em "Cadastrar Matrícula" |
+| **E** selecionarmos um cliente pela busca |
+| **E** selecionarmos uma Modalidade, um Tipo de Pagamento e um Dia de Vencimento |
+| **E** clicarmos em "Salvar" |
+| **ENTÃO** a matrícula deve ser criada e vinculada ao cliente |
 
 | **Critérios de aceitação** |
 | :-------------------------------------------------------------- |
-| A tela deve carregar sem apresentar mensagem de erro. |
-| Os filtros e as ações descritos devem estar disponíveis. |
-| A busca deve apresentar o plano correspondente ao nome utilizado. |
+| A matrícula deve ser salva com sucesso para qualquer combinação válida de modalidade e tipo de pagamento. |
+
+| **Resultado obtido** |
+| :-------------------------------------------------------------- |
+| O cadastro falha em toda tentativa, com a mensagem "Erro ao Cadastrar com Assinatura" e resposta HTTP 400 em `POST /api/salvar/matricula/1`. Testado com dois planos diferentes ("Treino Livre" e "Teste Final") e dois tipos de pagamento ("Manual SIFIT Pix" e "Dinheiro"), todos com o mesmo erro. Não foi possível concluir nenhum cadastro novo de matrícula. Falha crítica registrada em SIFIT-BUG-009. |
 
 | **Vídeo do JAM** |
 | :-------------------------------------------------------------- |
-| Link: | https://jam.dev/c/e585dca2-d7a1-4d6b-9083-c07768215220
+| Link: a adicionar. |
 
 ---
 
-### Caso de Teste 05: Abertura do formulário de novo plano.
+### Caso de Teste 05: Edição de matrícula existente.
 
 | ID | Descrição |
 | :------- | :------------------------------------------------------- |
-| C04-CT05 | O formulário de plano deve apresentar os campos de cadastro observados. |
+| C04-CT05 | O sistema deve permitir editar os dados de uma matrícula já cadastrada. |
 
 | **Pré-condições** |
 | :------------------------------------------------------------ |
-| O usuário deve estar autenticado e na tela de Planos. |
+| Deve existir uma matrícula de teste cadastrada. |
 
 | **Passos** |
 | :---------------------------------------------------------------- |
-| **DADO** que estamos na tela de Planos |
-| **QUANDO** clicarmos em "Novo Plano" |
-| **ENTÃO** o formulário de plano deve ser exibido |
-| **E** devem estar disponíveis os campos "Nome", "Grupo", "Status", "Cobrança", "Parcelas", "Valor Mensal" e "Valor Matrícula" |
-| **E** deve estar disponível a ação "Salvar Plano" |
+| **DADO** que estamos na visualização de uma matrícula de teste |
+| **QUANDO** clicarmos no ícone de editar |
+| **E** alterarmos o campo "Observação" |
+| **E** clicarmos em "Salvar" |
+| **ENTÃO** a alteração deve ser refletida na visualização da matrícula |
 
 | **Critérios de aceitação** |
 | :-------------------------------------------------------------- |
-| O formulário deve abrir sem apresentar mensagem de erro. |
-| Os campos descritos devem estar disponíveis. |
-| O caso verifica a abertura do formulário; não salvar o plano nem selecionar a opção "Salvar também na Pagar.me". |
+| A alteração deve ser salva e exibida corretamente ao reabrir a visualização. |
 
 | **Vídeo do JAM** |
 | :-------------------------------------------------------------- |
-| Link: | https://jam.dev/c/e585dca2-d7a1-4d6b-9083-c07768215220
+| Link: a adicionar. |
+
+---
+
+### Caso de Teste 06: Cancelamento de matrícula.
+
+| ID | Descrição |
+| :------- | :------------------------------------------------------- |
+| C04-CT06 | O sistema deve permitir cancelar uma matrícula ativa, mediante confirmação. |
+
+| **Pré-condições** |
+| :------------------------------------------------------------ |
+| Deve existir uma matrícula de teste com status "Ativo". |
+
+| **Passos** |
+| :---------------------------------------------------------------- |
+| **DADO** que estamos na listagem de Matrículas |
+| **QUANDO** clicarmos em "Cancelar" em uma matrícula de teste |
+| **ENTÃO** deve ser exibido o campo "Motivo de Cancelamento" |
+| **QUANDO** clicarmos em "Cancelar Matrícula" sem preencher o motivo |
+| **ENTÃO** o sistema deve exibir a confirmação "Deseja cancelar essa matrícula?" |
+| **QUANDO** confirmarmos |
+| **ENTÃO** a matrícula deve mudar para o status "Cancelado" |
+
+| **Critérios de aceitação** |
+| :-------------------------------------------------------------- |
+| O cancelamento deve exigir confirmação explícita. |
+| A matrícula cancelada deve sair da contagem de matrículas ativas. |
+
+| **Resultado obtido** |
+| :-------------------------------------------------------------- |
+| O cancelamento foi concluído com sucesso. O campo "Motivo de Cancelamento" não possui indicação visual de obrigatório e o sistema aceita o cancelamento mesmo sem texto informado — comportamento a confirmar com o time se é intencional. |
+
+| **Vídeo do JAM** |
+| :-------------------------------------------------------------- |
+| Link: a adicionar. |
