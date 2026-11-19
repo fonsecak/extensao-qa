@@ -25,7 +25,7 @@
 
 | **Vídeo do JAM** |
 | :-------------------------------------------------------------- |
-| Link: | https://jam.dev/c/173298ab-ca02-4148-984a-7b017b57c0fd
+| Link:  https://jam.dev/c/173298ab-ca02-4148-984a-7b017b57c0fd |
 
 ---
 
@@ -54,7 +54,7 @@
 
 | **Vídeo do JAM** |
 | :-------------------------------------------------------------- |
-| Link: | https://jam.dev/c/d4864384-da0e-4714-b2d9-85133579ac68
+| Link:  https://jam.dev/c/d4864384-da0e-4714-b2d9-85133579ac68 |
 
 ---
 
@@ -84,7 +84,7 @@
 
 | **Vídeo do JAM** |
 | :-------------------------------------------------------------- |
-| Link: | https://jam.dev/c/18699c5a-cab8-42da-ad76-884623c80b3d
+| Link:  https://jam.dev/c/18699c5a-cab8-42da-ad76-884623c80b3d |
 
 ---
 
@@ -111,13 +111,9 @@
 | :-------------------------------------------------------------- |
 | A matrícula deve ser salva com sucesso para qualquer combinação válida de modalidade e tipo de pagamento. |
 
-| **Resultado obtido** |
-| :-------------------------------------------------------------- |
-| O cadastro falha em toda tentativa, com a mensagem "Erro ao Cadastrar com Assinatura" e resposta HTTP 400 em `POST /api/salvar/matricula/1`. Testado com dois planos diferentes ("Treino Livre" e "Teste Final") e dois tipos de pagamento ("Manual SIFIT Pix" e "Dinheiro"), todos com o mesmo erro. Não foi possível concluir nenhum cadastro novo de matrícula. Falha crítica registrada em SIFIT-BUG-009. |
-
 | **Vídeo do JAM** |
 | :-------------------------------------------------------------- |
-| Link: a adicionar. |
+| Link: https://jam.dev/c/e83a41b0-997c-4043-b68a-0dbfe5a88d76 |
 
 ---
 
@@ -145,7 +141,7 @@
 
 | **Vídeo do JAM** |
 | :-------------------------------------------------------------- |
-| Link: a adicionar. |
+| Link: https://jam.dev/c/2b1cc3e2-174b-4562-924f-213318d00bbb |
 
 ---
 
@@ -180,4 +176,4 @@
 
 | **Vídeo do JAM** |
 | :-------------------------------------------------------------- |
-| Link: a adicionar. |
+| Link: https://jam.dev/c/5d2726fe-8bef-4a2b-b4f0-14ec1cb01395 |

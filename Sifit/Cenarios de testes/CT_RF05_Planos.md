@@ -27,7 +27,7 @@
 
 | **Vídeo do JAM** |
 | :-------------------------------------------------------------- |
-| Link: | https://jam.dev/c/e585dca2-d7a1-4d6b-9083-c07768215220
+| Link:  https://jam.dev/c/e585dca2-d7a1-4d6b-9083-c07768215220 |
 
 ---
 
@@ -57,7 +57,7 @@
 
 | **Vídeo do JAM** |
 | :-------------------------------------------------------------- |
-| Link: | https://jam.dev/c/e585dca2-d7a1-4d6b-9083-c07768215220
+| Link:  https://jam.dev/c/e585dca2-d7a1-4d6b-9083-c07768215220 |
 
 ---
 
@@ -84,7 +84,7 @@
 
 | **Vídeo do JAM** |
 | :-------------------------------------------------------------- |
-| Link: a adicionar. |
+| Link: https://jam.dev/c/724d4722-7ffa-4242-ae48-5042683b376d |
 
 ---
 
@@ -112,37 +112,6 @@
 | **Resultado obtido** |
 | :-------------------------------------------------------------- |
 | Os dois campos de texto do bloco "Dados do Plano" não possuem rótulo (`label`) associado corretamente ao campo de entrada. O primeiro campo do formulário (visualmente sob "Código") recebe o foco e o texto digitado quando se tenta preencher o campo "Nome" por meio de ferramentas de acessibilidade ou automação, revelando que a ordem dos elementos no DOM não corresponde à ordem visual ou que os rótulos não estão associados via atributo `for`/`id` ou `aria-label`. Falha registrada em SIFIT-BUG-012. |
-
-| **Vídeo do JAM** |
-| :-------------------------------------------------------------- |
-| Link: a adicionar. |
-
----
-
-### Caso de Teste 05: Cadastro de novo plano retorna erro do servidor.
-
-| ID | Descrição |
-| :------- | :------------------------------------------------------- |
-| C05-CT05 | O sistema deve permitir o cadastro completo de um novo plano com dados válidos. |
-
-| **Pré-condições** |
-| :------------------------------------------------------------ |
-| O usuário deve estar autenticado e no formulário de novo plano. |
-
-| **Passos** |
-| :---------------------------------------------------------------- |
-| **DADO** que estamos no formulário "Novo Plano" |
-| **QUANDO** preenchermos corretamente Nome, Grupo, Parcelas e Valor Mensal |
-| **E** clicarmos em "Salvar Plano", sem marcar a opção de salvar também na Pagar.me |
-| **ENTÃO** o plano deve ser criado e listado na tela de Planos |
-
-| **Critérios de aceitação** |
-| :-------------------------------------------------------------- |
-| O plano deve ser salvo com sucesso e aparecer na listagem imediatamente após o cadastro. |
-
-| **Resultado obtido** |
-| :-------------------------------------------------------------- |
-| O cadastro falha com a mensagem "Erro ao salvar plano", com `POST /api/plano/salvar/1` retornando HTTP 500. Reproduzido mesmo preenchendo corretamente todos os campos obrigatórios identificados. Falha crítica registrada em SIFIT-BUG-013. |
 
 | **Vídeo do JAM** |
 | :-------------------------------------------------------------- |
