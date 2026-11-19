@@ -23,9 +23,9 @@
 | A tela deve carregar sem apresentar mensagem de erro. |
 | A busca por nome deve retornar os registros correspondentes. |
 
-| **Vídeo do JAM** |
+| **Vídeo Local** |
 | :-------------------------------------------------------------- |
-| Link: a adicionar. |
+| Assistir vídeo: (../Videos/11.mp4) |
 
 ---
 
@@ -57,6 +57,6 @@
 | A validação do campo "Nome" deve impedir o cadastro sem preenchimento. |
 | A bandeira deve aparecer na listagem imediatamente após o cadastro. |
 
-| **Vídeo do JAM** |
+| **Vídeo Local** |
 | :-------------------------------------------------------------- |
-| Link: a adicionar. |
+| Assistir vídeo: (../Videos/11.mp4) |
