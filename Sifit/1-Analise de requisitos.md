@@ -1,6 +1,6 @@
 ## **Requisitos Funcionais Detalhados para Testes Manuais**
 
-**Sistema:** Sifit — https://sifit.centrion.com.br
+**Sistema:** Sifit — https://sifitalfa.centrion.com.br
 
 ### **RF01 - Autenticação de Usuário**
 

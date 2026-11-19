@@ -115,4 +115,4 @@
 
 | **Vídeo do JAM** |
 | :-------------------------------------------------------------- |
-| Link: a adicionar. |
+| Link: https://jam.dev/c/e63d7afd-b2a8-4f45-b3d9-ea656336ac8b |
