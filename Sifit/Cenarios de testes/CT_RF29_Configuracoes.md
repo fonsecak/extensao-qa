@@ -1,3 +1,4 @@
+
 ## Cenário 29: Consulta e alteração de Configurações.
 
 ### Caso de Teste 01: Acesso à tela de Configurações e navegação entre abas.
@@ -90,7 +91,13 @@ Dessa forma, optou-se por não registrar evidência em vídeo, preservando a con
 
 | **Vídeo do JAM** |
 | :-------------------------------------------------------------- |
-| Link: a adicionar. |
+|| Vídeo não realizado por motivos de segurança da informação. |
+**Justificativa — C29-CT03**
+A gravação deste caso de teste não será realizada por motivos de segurança da informação. Durante a execução, foi identificado que o campo "Token Pagar.me", localizado na aba Pagamento, apresenta seu conteúdo em texto plano, sem o mascaramento adequado.
+
+A gravação poderia expor informações sensíveis de integração com o sistema de pagamentos, comprometendo a confidencialidade e a segurança dos dados. Dessa forma, optou-se por não registrar evidência em vídeo, evitando a possível divulgação de credenciais de acesso.
+
+**Resultado:** Reprovado — Falha SIFIT-BUG-006. |
 
 ---
 
