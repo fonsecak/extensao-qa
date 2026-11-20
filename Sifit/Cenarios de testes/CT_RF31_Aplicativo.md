@@ -24,4 +24,4 @@
 
 | **Vídeo do JAM** |
 | :-------------------------------------------------------------- |
-| Link: a adicionar. |
+| Link: [Assistir ao vídeo C31-CT01](COLE_AQUI_O_LINK_DO_JAM) |
