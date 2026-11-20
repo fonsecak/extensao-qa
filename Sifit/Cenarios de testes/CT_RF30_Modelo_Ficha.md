@@ -28,4 +28,4 @@
 
 | **Vídeo do JAM** |
 | :-------------------------------------------------------------- |
-| Link: a adicionar. |
+| Link: [Assistir ao vídeo C30-CT01](https://jam.dev/c/cd2a7b2e-2296-4561-b515-2f66d89006be) | 
