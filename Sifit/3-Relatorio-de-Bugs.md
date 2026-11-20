@@ -16,7 +16,7 @@
 
 | **Severidade do Bug** | **Prioridade de Correção** | **Status** |
 | :---: | :---: | :---: |
-| A avaliar | A avaliar | Aberto |
+| Média | Média | Aberto |
 
 | **Passo a passo para simular o bug** |
 | :--- |
@@ -52,7 +52,7 @@
 
 | **Severidade do Bug** | **Prioridade de Correção** | **Status** |
 | :---: | :---: | :---: |
-| A avaliar | A avaliar | Aberto |
+| Baixa | Baixa | Aberto |
 
 | **Passo a passo para simular o bug** |
 | :--- |
@@ -89,7 +89,7 @@
 
 | **Severidade do Bug** | **Prioridade de Correção** | **Status** |
 | :---: | :---: | :---: |
-| A avaliar | A avaliar | Aberto |
+| Média | Média | Aberto |
 
 | **Passo a passo para simular o bug** |
 | :--- |
@@ -126,7 +126,7 @@
 
 | **Severidade do Bug** | **Prioridade de Correção** | **Status** |
 | :---: | :---: | :---: |
-| A avaliar | A avaliar | Aberto |
+| Média | Média | Aberto |
 
 | **Passo a passo para simular o bug** |
 | :--- |
@@ -162,7 +162,7 @@
 
 | **Severidade do Bug** | **Prioridade de Correção** | **Status** |
 | :---: | :---: | :---: |
-| A avaliar | A avaliar | Aberto |
+| Média | Média | Aberto |
 
 | **Passo a passo para simular o bug** |
 | :--- |
@@ -201,7 +201,7 @@
 
 | **Severidade do Bug** | **Prioridade de Correção** | **Status** |
 | :---: | :---: | :---: |
-| A avaliar | A avaliar | Aberto |
+| Média | Média | Aberto |
 
 | **Passo a passo para simular o bug** |
 | :--- |
@@ -237,7 +237,7 @@
 
 | **Severidade do Bug** | **Prioridade de Correção** | **Status** |
 | :---: | :---: | :---: |
-| A avaliar | A avaliar | Aberto |
+| Média | Média | Aberto |
 
 | **Passo a passo para simular o bug** |
 | :--- |
@@ -273,7 +273,7 @@
 
 | **Severidade do Bug** | **Prioridade de Correção** | **Status** |
 | :---: | :---: | :---: |
-| A avaliar | A avaliar | Aberto |
+| Baixa | Baixa | Aberto |
 
 | **Passo a passo para simular o bug** |
 | :--- |
@@ -308,7 +308,7 @@
 
 | **Severidade do Bug** | **Prioridade de Correção** | **Status** |
 | :---: | :---: | :---: |
-| A avaliar | Alta (bloqueia o fluxo principal de matrícula) | Aberto |
+| Alta | Alta (bloqueia o fluxo principal de matrícula) | Aberto |
 
 | **Passo a passo para simular o bug** |
 | :--- |
@@ -347,7 +347,7 @@
 
 | **Severidade do Bug** | **Prioridade de Correção** | **Status** |
 | :---: | :---: | :---: |
-| A avaliar | A avaliar | Aberto |
+| Média | Média | Aberto |
 
 | **Passo a passo para simular o bug** |
 | :--- |
@@ -385,7 +385,7 @@
 
 | **Severidade do Bug** | **Prioridade de Correção** | **Status** |
 | :---: | :---: | :---: |
-| A avaliar | Alta (bloqueia o fluxo principal de avaliação) | Aberto |
+| Alta | Alta (bloqueia o fluxo principal de avaliação) | Aberto |
 
 | **Passo a passo para simular o bug** |
 | :--- |
@@ -423,7 +423,7 @@
 
 | **Severidade do Bug** | **Prioridade de Correção** | **Status** |
 | :---: | :---: | :---: |
-| A avaliar | A avaliar | Aberto |
+| Baixa | Baixa | Aberto |
 
 | **Passo a passo para simular o bug** |
 | :--- |
@@ -459,7 +459,7 @@
 
 | **Severidade do Bug** | **Prioridade de Correção** | **Status** |
 | :---: | :---: | :---: |
-| A avaliar | Alta (bloqueia o fluxo principal de cadastro de plano) | Aberto |
+| Alta | Alta (bloqueia o fluxo principal de cadastro de plano) | Aberto |
 
 | **Passo a passo para simular o bug** |
 | :--- |
@@ -496,7 +496,7 @@
 
 | **Severidade do Bug** | **Prioridade de Correção** | **Status** |
 | :---: | :---: | :---: |
-| A avaliar | A avaliar | Aberto |
+| Média | Média | Aberto |
 
 | **Passo a passo para simular o bug** |
 | :--- |
@@ -534,7 +534,7 @@
 
 | **Severidade do Bug** | **Prioridade de Correção** | **Status** |
 | :---: | :---: | :---: |
-| A avaliar | Alta (bloqueia o fluxo principal de criação de ficha de treino) | Aberto |
+| Alta | Alta (bloqueia o fluxo principal de criação de ficha de treino) | Aberto |
 
 | **Passo a passo para simular o bug** |
 | :--- |
@@ -572,7 +572,7 @@
 
 | **Severidade do Bug** | **Prioridade de Correção** | **Status** |
 | :---: | :---: | :---: |
-| A avaliar | A avaliar | Aberto |
+| Média | Média | Aberto |
 
 | **Passo a passo para simular o bug** |
 | :--- |

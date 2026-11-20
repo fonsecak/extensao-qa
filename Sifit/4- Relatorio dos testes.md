@@ -61,22 +61,22 @@
 
 | ID | Título | Severidade | Status |
 | -------------- | ------------------------------------------------------------------------------ | ---------- | ------ |
-| SIFIT-BUG-001 | Erro interno ao buscar matrícula pelo código | A avaliar | Aberto |
-| SIFIT-BUG-002 | Geração de relatório aceita período com data inicial posterior à data final | A avaliar | Aberto |
-| SIFIT-BUG-003 | Busca de lead por nome não retorna resultados na Prospecção | A avaliar | Aberto |
-| SIFIT-BUG-004 | Cadastro de produto sem nome permanece ativo e disponível para venda | A avaliar | Aberto |
-| SIFIT-BUG-005 | Pergunta de enquete não é persistida no cadastro (listagem reflete isso) | A avaliar | Aberto |
-| SIFIT-BUG-006 | Campos de credenciais exibidos sem máscara em Configurações | A avaliar | Aberto |
-| SIFIT-BUG-007 | Modelo Ficha sem título e ação de alterar direciona para fluxo incorreto | A avaliar | Aberto |
-| SIFIT-BUG-008 | Campo "Tipo Sanguíneo" exibe o literal "null" quando vazio | A avaliar | Aberto |
+| SIFIT-BUG-001 | Erro interno ao buscar matrícula pelo código | Média | Aberto |
+| SIFIT-BUG-002 | Geração de relatório aceita período com data inicial posterior à data final | Baixa | Aberto |
+| SIFIT-BUG-003 | Busca de lead por nome não retorna resultados na Prospecção | Média | Aberto |
+| SIFIT-BUG-004 | Cadastro de produto sem nome permanece ativo e disponível para venda | Média | Aberto |
+| SIFIT-BUG-005 | Pergunta de enquete não é persistida no cadastro (listagem reflete isso) | Média | Aberto |
+| SIFIT-BUG-006 | Campos de credenciais exibidos sem máscara em Configurações | Média | Aberto |
+| SIFIT-BUG-007 | Modelo Ficha sem título e ação de alterar direciona para fluxo incorreto | Média | Aberto |
+| SIFIT-BUG-008 | Campo "Tipo Sanguíneo" exibe o literal "null" quando vazio | Baixa | Aberto |
 | SIFIT-BUG-009 | Não é possível cadastrar nova matrícula ("Erro ao Cadastrar com Assinatura") | Alta | Aberto |
-| SIFIT-BUG-010 | Tela de Check-ins não reflete corretamente os registros de entrada | A avaliar | Aberto |
+| SIFIT-BUG-010 | Tela de Check-ins não reflete corretamente os registros de entrada | Média | Aberto |
 | SIFIT-BUG-011 | Erro interno ao salvar avaliação física preenchida | Alta | Aberto |
-| SIFIT-BUG-012 | Campos "Código" e "Nome" sem rótulo associado no formulário de Plano | A avaliar | Aberto |
+| SIFIT-BUG-012 | Campos "Código" e "Nome" sem rótulo associado no formulário de Plano | Baixa | Aberto |
 | SIFIT-BUG-013 | Não é possível cadastrar novo plano ("Erro ao salvar plano") | Alta | Aberto |
-| SIFIT-BUG-014 | Anamnese aplicada com sucesso não aparece na listagem | A avaliar | Aberto |
+| SIFIT-BUG-014 | Anamnese aplicada com sucesso não aparece na listagem | Média | Aberto |
 | SIFIT-BUG-015 | Não é possível cadastrar nova ficha de treino ("Erro ao salvar Ficha") | Alta | Aberto |
-| SIFIT-BUG-016 | Mensagem "Erro ao salvar enquete" exibida mesmo com sucesso do backend | A avaliar | Aberto |
+| SIFIT-BUG-016 | Mensagem "Erro ao salvar enquete" exibida mesmo com sucesso do backend | Média | Aberto |
 
 ---
 
