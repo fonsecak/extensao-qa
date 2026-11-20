@@ -125,7 +125,7 @@ A gravação poderia expor informações sensíveis de integração com o sistem
 
 | **Vídeo do JAM** |
 | :-------------------------------------------------------------- |
-| | Link: [Assistir ao vídeo CT04](https://jam.dev/c/e3431411-3e7d-4a51-8f3d-ddbb1c138254) | |
+|  Link: [Assistir ao vídeo CT04](https://jam.dev/c/e3431411-3e7d-4a51-8f3d-ddbb1c138254) | 
 
 ---
 
